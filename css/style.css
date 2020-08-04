@@ -1,0 +1,12 @@
+* { margin: 0; padding: 0}
+html, body { height: 100%; font-family: Helvetica;}
+a { text-decoration: none; color: #fff;}
+header { background-image: url(../img/header_template.png); background-position: center; width: 100%; height: 193px;}
+header .logo-wrap { position: relative; width: 100%; height: 193px; padding-top: 130px;}
+header .logo-wrap h1 { color: #fff; text-align: center; z-index: 2; position: relative; margin-top: 14px;}
+header .logo-wrap .logo {position: relative; width: 150px; height: 150px; border-radius: 75px 75px 75px 75px; margin: 0 auto; overflow: hidden; z-index: 2;}
+header .logo img { width: 100%; height: 100%;}
+section { bottom: 0; position: relative; height: 100%; background-image: url(../img/back.jpg); background-size: cover;}
+.content-wrap { max-width: 960px; width: 100%; margin: 0 auto; padding-top: 165px;}
+.content-wrap h2, .content-wrap h4 { color: #fff; text-align: center;}
+.content-wrap pre { color: #fff; margin: 40px auto; max-width: 800px; border: 1px #dedede solid; border-radius: 7px 7px 7px 7px; padding: 40px 0; font-size: 1.4em;}
